@@ -27,9 +27,9 @@ def str_case():
     quote = " "
     for word in range(0,len(words)):
         if len(words) > 0:
-            quote += words[word] + " "
+            quote = " ".join(words)
         else:
-            quote += words[word]
+            quote = words[word]
     return quote.strip()
 #Tech debt: figure out how to close out "!" into the last word."
 
