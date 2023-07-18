@@ -35,5 +35,13 @@ def str_case():
 print(str_case())
 print(str_case()[::-1])
 
+def parse_a():
+    word = "Star Trek"
+    for w in range(0, len(word), 2):
+        print(word[w].capitalize())
+    
+parse_a()
+        
+
 
                      
