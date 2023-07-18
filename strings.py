@@ -1,6 +1,5 @@
 from more_itertools import strip
 
-
 def palindr():
     words = ["kayak", "wow", "defied", "military", "poem", "racecar"]
     # words = "kayak"
@@ -34,4 +33,7 @@ def str_case():
 #Tech debt: figure out how to close out "!" into the last word."
 
 print(str_case())
+print(str_case()[::-1])
+
+
                      
